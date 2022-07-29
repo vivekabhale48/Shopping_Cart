@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+p{
+    color: #6c7576;
+}
+
+.main_cart {
+    background: #fff;
+}
+
+.product_img img {
+    min-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.product_name {
+    color: black;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.page-link:focus{
+    box-shadow: none;
+}
+
+.price_indiv p {
+    font-size: 1.1rem;
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+#textbox1, #textbox2{
+    width: 38px;
+}
